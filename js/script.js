@@ -1,14 +1,14 @@
 
 /* ScrollReveal: Mostrar elementos quando der scroll na página */
 const scrollReveal = ScrollReveal({
-    origin: 'top',
+    origin: 'bottom',
     distance: '40px',
     duration: 1200,
     reset: true
   })
   
   scrollReveal.reveal(
-    `.topo
+    `.bottom
     `,
     { interval: 200 }
   )

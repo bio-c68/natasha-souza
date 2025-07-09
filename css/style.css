@@ -12,6 +12,21 @@ body{
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     color: #ffffff;
+    background-color: #edede0;
+}
+
+header img{
+    margin-top: 0;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+header img:hover{
+    transform: none;
 }
 .wraper {
     width: 100%;
@@ -29,7 +44,22 @@ body{
     align-items: center;
     gap: 2rem;
 }
+
+h3{
+    margin: 0 auto;
+    text-align: center;
+    padding: 4px 18px;
+    color: #c4a092;
+    border: 1px solid #c4a092;
+    border-radius: 8px;
+    max-width: 250px;
+}
+
+h3 i{
+    margin-left: 6px;
+}
 img{
+    margin-top: 8px;
     width: 100%;
     max-width: 600px;
     transition: 750ms;
@@ -55,6 +85,9 @@ footer .wraper img{
     body{
         padding: 1rem;
         font-size: 0.7rem;
+    }
+    h3{
+        max-width: 150px;
     }
     footer .wraper img{
         max-width: 120px;
